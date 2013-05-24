@@ -1,89 +1,142 @@
-<!DOCTYPE HTML>
-<html>
-    <head>
-    	<title>Matt Gambogi</title>
-    	<link rel = "stylesheet" type = "text/css" href="general.css"/>
-        <link href='http://fonts.googleapis.com/css?family=Merriweather+Sans:400,700,800,300' rel='stylesheet' type='text/css'>
-        <!-- <link href='http://fonts.googleapis.com/css?family=Tauri' rel='stylesheet' type='test/css'> -->
-    </head>
+<!DOCTYPE html>
+<!--[if IE 8]> 				 <html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
 
-    <body>
-        <div id='top'>
-            <div id='nav'>
-            	<ul>
-        			<li id='title'>Matt Gambogi</li>
-        			<li><a href="#about">About</a></li>
-        			<li><a href="#projects">Projects</a></li>
-        			<li><a href="#experience">Experience</a></li>
-                    <li><a href="#interests">Interests</a></li>
-        		</ul>
-            </div>
-        </div>
-        <div id="contact-bar">
-            <ul>
-                    <li><a href="tel:+17039993742">(703) 999-3742</a></li>
-                    <li><a href="mailto:matt.gambogi@gmail.com">Email </a></li>
-                    <li><a href="assets/resume.pdf"> Resume </a></li>
-                    <li><a href="http://www.linkedin.com/in/mgambogi"> LinkedIn </a></li>
-                    <li><a href="http://www.twitter.com/gambomb"> @gambomb </a></li>
-                    <li><a href="http://www.github.com/mgambogi"> GitHub </a></li>
-                    <li><a href="https://plus.google.com/101357788675175963229/posts/"> Google+ </a></li>
-            </ul>
-        </div>
-        <div id="content">
-            <div id="about">
-                <h1>About</h1>
-                <p>I'm a student at the Rochester Institute of Technology, double majoring in Computer Science and Economics. The processes that drive the regularities of the world is my primary interest. Any derivative of that topic is extremely interesting to me. Consequently, I'm facinated by a host of ideas, ranging from the Theory of Evolution, to Operating Systems, to Methods of Human Computer Interation, to Data Mining.</p>
-            </div>
-            <div id="projects">
-                <h1>Projects</h1>
-                    
-                    <h2>webOS Desktop Enviornment</h2>
-                    <p> Ongoing, working toward a version of <a href="http://www.openwebosproject.org">open webOS</a> suitable for use on Laptops and Desktops. I believe webOS could mature into a compelling tertiary desktop enviornment, given its origins and current state.</p>
-                    
-                    <h2>wiki2man</h2>
-                    <p>Created a simple utility to convert mediawiki entries into man pages. Developed primarily for adding wiki pages to the standard set of man pages on Computer Science House systems.</p>
-                    
-                    <h2>DC Area Crime Map 2011</h2>
-                    <p>Paired up crime data sets from the DC, Maryland, and Virgina State police with county maps of the area in ArcGIS, and produced a robust data visualization. I had a good time working on this project, and it was a lot of fun to see patterns emerge that were entirely unanticipated (Pornography charges in western Virgina are significantly higher per capita), along with a good deal of local knowlege confirmed (Richmond is a hotbed for crime.)</p>
-            </div>
-            <div id="experience">
-                <h1>Experience</h1>
-                <ul>
-                    <ul>
-                        <h2>Computer Science and Economics Major</h2>
-                        <li><h3>Rochester Institute of Technology 2016 (Expected)</h3></li>
-                        <li>Computer Science because solving hard problems is fun. Economics to provide an additional lense to view major problems with.</li>
-                        <ul>
-                            <li><h3>Coursework</h3></li>
-                        </ul>
-                        <a href="http://www.rit.edu"><img src="assets/rit.png" width="300"></a>
+<head>
+	<meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width" />
+  <title>Foundation 4</title>
 
-                    </ul>
-                    <ul>
-                        <h2>Computer Science House</h2>
-                        <a href="http://csh.rit.edu"><img src="assets/csh.png" width="300"></a>
-                    </ul>
-                    <ul>
-                        <h2>Research Intern</h2>
-                        <li>Summer 2012</li>
-                        <a href="http://www.secureit.com"><img src="assets/secureit.png" width="300"></a>
-                    </ul>
-                    <ul>
-                        <h2>Lifeguard</h2>
-                        <li><a href="http://www.leesburgva.org/index.aspx?page=117"><img src="assets/townOfLeesburg.png" width="300"></a></li>
-                    </ul>
-                </ul>
-            </div>
-            <div id="interests">
-                <h1>Interests</h1>
-                    <h2>Running</h2>
-                        <p>I'm a distance runner. Currently coming back from an injury in the fall, I look forward to getting back into the swing of things this year. Also looking for a running partner, so if you live near RIT and train at or around 7:00-:30 per mile, send me a message.</p>
-                    <h2>Music</h2>
-                        <p>In lieu of a wordy explanation of my tastes, I instead offer these bands and songs as a sampling of what I enjoy listening.</p>
-                    <h2>Books</h2>
-                        <p>Similarly, here is a sampling of my favorite books:</p>
-                </div>
+  
+  <link rel="stylesheet" href="css/foundation.css" />
+  
+
+  <script src="js/vendor/custom.modernizr.js"></script>
+
+</head>
+<body>
+
+	<div class="row">
+		<div class="large-12 columns">
+			<h2>Welcome to Foundation</h2>
+			<p>This is version 4.1.6.</p>
+			<hr />
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="large-8 columns">
+			<h3>The Grid</h3>
+
+			<!-- Grid Example -->
+			<div class="row">
+				<div class="large-12 columns">
+					<div class="panel">
+						<p>This is a twelve column section in a row. Each of these includes a div.panel element so you can see where the columns are - it's not required at all for the grid.</p>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="large-6 columns">
+					<div class="panel">
+						<p>Six columns</p>
+					</div>
+				</div>
+				<div class="large-6 columns">
+					<div class="panel">
+						<p>Six columns</p>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="large-4 columns">
+					<div class="panel">
+						<p>Four columns</p>
+					</div>
+				</div>
+				<div class="large-4 columns">
+					<div class="panel">
+						<p>Four columns</p>
+					</div>
+				</div>
+				<div class="large-4 columns">
+					<div class="panel">
+						<p>Four columns</p>
+					</div>
+				</div>
+			</div>
+
+			<h3>Buttons</h3>
+
+      <div class="row">
+        <div class="large-6 columns">
+          <p><a href="#" class="small button">Small Button</a></p>
+          <p><a href="#" class="button">Medium Button</a></p>
+          <p><a href="#" class="large button">Large Button</a></p>
         </div>
-    </body>
+        <div class="large-6 columns">
+          <p><a href="#" class="small alert button">Small Alert Button</a></p>
+          <p><a href="#" class="success button">Medium Success Button</a></p>
+          <p><a href="#" class="large secondary button">Large Secondary Button</a></p>
+        </div>
+      </div>
+		</div>
+
+		<div class="large-4 columns">
+			<h4>Getting Started</h4>
+			<p>We're stoked you want to try Foundation! To get going, this file (index.html) includes some basic styles you can modify, play around with, or totally destroy to get going.</p>
+
+			<h4>Other Resources</h4>
+			<p>Once you've exhausted the fun in this document, you should check out:</p>
+			<ul class="disc">
+				<li><a href="http://foundation.zurb.com/docs">Foundation Documentation</a><br />Everything you need to know about using the framework.</li>
+				<li><a href="http://github.com/zurb/foundation">Foundation on Github</a><br />Latest code, issue reports, feature requests and more.</li>
+				<li><a href="http://twitter.com/foundationzurb">@foundationzurb</a><br />Ping us on Twitter if you have questions. If you build something with this we'd love to see it (and send you a totally boss sticker).</li>
+			</ul>
+		</div>
+	</div>
+
+  <script>
+  document.write('<script src=' +
+  ('__proto__' in {} ? 'js/vendor/zepto' : 'js/vendor/jquery') +
+  '.js><\/script>')
+  </script>
+  
+  <script src="js/foundation.min.js"></script>
+  <!--
+  
+  <script src="js/foundation/foundation.js"></script>
+  
+  <script src="js/foundation/foundation.alerts.js"></script>
+  
+  <script src="js/foundation/foundation.clearing.js"></script>
+  
+  <script src="js/foundation/foundation.cookie.js"></script>
+  
+  <script src="js/foundation/foundation.dropdown.js"></script>
+  
+  <script src="js/foundation/foundation.forms.js"></script>
+  
+  <script src="js/foundation/foundation.joyride.js"></script>
+  
+  <script src="js/foundation/foundation.magellan.js"></script>
+  
+  <script src="js/foundation/foundation.orbit.js"></script>
+  
+  <script src="js/foundation/foundation.placeholder.js"></script>
+  
+  <script src="js/foundation/foundation.reveal.js"></script>
+  
+  <script src="js/foundation/foundation.section.js"></script>
+  
+  <script src="js/foundation/foundation.tooltips.js"></script>
+  
+  <script src="js/foundation/foundation.topbar.js"></script>
+  
+  -->
+  
+  <script>
+    $(document).foundation();
+  </script>
+</body>
 </html>
