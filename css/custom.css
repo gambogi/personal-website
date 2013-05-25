@@ -1,0 +1,56 @@
+*{
+  font-family: 'Merriweather Sans', serif;
+  font-size: 16px;
+  line-height: 1.5;
+  margin:0;
+  padding: 0;
+  border: 0;
+  text-decoration: none;
+}
+body, html{
+  min-width:1200px;
+  height: 100%;
+  background-image: url(/home/matt/Projects/personal-website/assets/bright_squares.png)
+
+}
+header{
+	min-height: 500px;
+/*	margin-top: -10px;
+	padding-top: 10px;*/
+	margin-bottom: -20px;
+	background: url(/home/matt/Projects/personal-website/assets/myself-big.jpg) no-repeat center center; 
+	 -webkit-background-size: cover;
+	 -moz-background-size: cover;
+	 -o-background-size: cover;
+	 background-size: cover;
+	}
+
+#nav{
+  width: 15%;
+  height: 100%;
+  min-width: 220px;
+  background-image: url('/home/matt/Projects/personal-website/assets/scribble_light.png');
+  background-repeat: repeat;
+  opacity: .8;
+  background-color: rgba(255,255,255,.5);
+}
+
+ #nav a, a:visited, #nav ul li:first-child{
+  line-height: 200%;
+  min-width: 220px;
+  display: block;
+  color:#333;
+  background-color:rgba(0,0,0,0);
+  font-size: 200%;
+  text-align:right;
+  padding-right: 10px;
+
+}
+
+#nav a:hover, #nav ul li:first-child{
+  color: #FFE438;
+  width: 110%;
+  list-style-image: url("office.png");
+  background-color: #333;
+  /*background-color: rgba(0,0,0,0.75)*/
+}
